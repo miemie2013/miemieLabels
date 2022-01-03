@@ -84,6 +84,16 @@ if __name__ == '__main__':
 
 
     # 自定义数据集的注解转换成coco的注解格式。只需改下面7个即可。文件夹下的子目录（子文件）用/隔开，而不能用\或\\。
+    # train_path = 'annos_train.txt'
+    # val_path = 'annos_val.txt'
+    # test_path = None   # 如果没有测试集，填None；如果有测试集，填txt注解文件的路径。
+    # classes_path = 'class_names/bh3_letu_classes.txt'
+    # train_pre_path = 'E://bh3/letu/has_objs/'   # 训练集图片相对路径
+    # val_pre_path = 'E://bh3/letu/has_objs/'     # 验证集图片相对路径
+    # test_pre_path = 'E://bh3/letu/has_objs/'    # 测试集图片相对路径
+
+
+    # 自定义数据集的注解转换成coco的注解格式。只需改下面7个即可。文件夹下的子目录（子文件）用/隔开，而不能用\或\\。
     train_path = 'annos_train.txt'
     val_path = 'annos_val.txt'
     test_path = None   # 如果没有测试集，填None；如果有测试集，填txt注解文件的路径。
