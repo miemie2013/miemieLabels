@@ -24,24 +24,31 @@ class Example(QWidget):
         # self.classes.append('锚点')
 
         # 待标注图片的目录
-        self.images_dir = 'E://bh3/letu/has_objs/'
+        # self.images_dir = 'E://bh3/letu/has_objs/'
         # 生成的注解文件保存的目录
-        self.annos_dir = 'E://bh3/letu/has_objs_txt/'
-        self.classes = []
-        self.classes.append('商店木屋')
-        self.classes.append('商店锚点')
-        self.classes.append('未开锚点')
-        self.classes.append('boss锚点')
-        self.classes.append('专属锚点')
-        self.classes.append('难以辨认的锚点')
+        # self.annos_dir = 'E://bh3/letu/has_objs_txt/'
+        # self.classes = []
+        # self.classes.append('商店木屋')
+        # self.classes.append('商店锚点')
+        # self.classes.append('未开锚点')
+        # self.classes.append('boss锚点')
+        # self.classes.append('专属锚点')
+        # self.classes.append('难以辨认的锚点')
+        # self.classes.append('必杀')
+        # self.classes.append('能量')
+        # self.classes.append('低生命')
+        # self.classes.append('连击')
+        # self.classes.append('闪避')
+        # self.classes.append('蛇')
+        # self.classes.append('无伤')
 
-        self.classes.append('必杀')
-        self.classes.append('能量')
-        self.classes.append('低生命')
-        self.classes.append('连击')
-        self.classes.append('闪避')
-        self.classes.append('蛇')
-        self.classes.append('无伤')
+        # 待标注图片的目录
+        self.images_dir = 'mydataset/'
+        # 生成的注解文件保存的目录
+        self.annos_dir = 'mydataset_txt/'
+        self.classes = []
+        self.classes.append('person')
+        self.classes.append('cat')
 
 
         # 暂时支持的最大类别数
