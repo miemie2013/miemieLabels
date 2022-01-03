@@ -3,9 +3,11 @@ import os
 
 # 生成的注解文件保存的目录
 # annos_dir = 'E://letu/has_objs_txt/'
-annos_dir = 'E://bh3/weituo_txt/'
-save_name = 'annos.txt'
+# annos_dir = 'E://bh3/weituo_txt/'
+annos_dir = 'mydataset_txt/'
 
+
+save_name = 'annos.txt'
 txt_names = os.listdir(annos_dir)
 
 

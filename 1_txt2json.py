@@ -74,13 +74,23 @@ def write_json(txt_path, img_path, base_json, anno_name, im_id, anno_id):
 
 if __name__ == '__main__':
     # 自定义数据集的注解转换成coco的注解格式。只需改下面7个即可。文件夹下的子目录（子文件）用/隔开，而不能用\或\\。
-    train_path = 'annotation/voc2012_train.txt'
-    val_path = 'annotation/voc2012_val.txt'
+    # train_path = 'annotation/voc2012_train.txt'
+    # val_path = 'annotation/voc2012_val.txt'
+    # test_path = None   # 如果没有测试集，填None；如果有测试集，填txt注解文件的路径。
+    # classes_path = 'class_names/voc_classes.txt'
+    # train_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'   # 训练集图片相对路径
+    # val_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'     # 验证集图片相对路径
+    # test_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'    # 测试集图片相对路径
+
+
+    # 自定义数据集的注解转换成coco的注解格式。只需改下面7个即可。文件夹下的子目录（子文件）用/隔开，而不能用\或\\。
+    train_path = 'annos_train.txt'
+    val_path = 'annos_val.txt'
     test_path = None   # 如果没有测试集，填None；如果有测试集，填txt注解文件的路径。
-    classes_path = 'data/voc_classes.txt'
-    train_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'   # 训练集图片相对路径
-    val_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'     # 验证集图片相对路径
-    test_pre_path = '../VOCdevkit/VOC2012/JPEGImages/'    # 测试集图片相对路径
+    classes_path = 'class_names/my_classes.txt'
+    train_pre_path = 'mydataset/'   # 训练集图片相对路径
+    val_pre_path = 'mydataset/'     # 验证集图片相对路径
+    test_pre_path = 'mydataset/'    # 测试集图片相对路径
 
 
     # 创建json注解目录
